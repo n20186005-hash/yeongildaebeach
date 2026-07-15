@@ -5,6 +5,7 @@ import SitePlaques from './SitePlaques.astro';
 import ScienceArt from './ScienceArt.astro';
 const { messages } = getI18n(Astro.url);
 const h = messages.humanities;
+const timeline = h.timeline ?? [];
 ---
 
 <section id="history" class="section-padding" style="background: var(--bg-primary);">
@@ -15,10 +16,27 @@ const h = messages.humanities;
     </div>
 
     <div class="max-w-5xl mx-auto space-y-14">
+      {timeline.length > 0 && (
+        <div class="rounded-3xl p-6 sm:p-8 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+          <div class="max-w-3xl mx-auto mb-8 text-center">
+            <h3 class="font-display text-2xl sm:text-3xl font-semibold mb-3" style="color: var(--text-primary);">{h.timelineTitle ?? '时间轴'}</h3>
+            {h.timelineIntro && <p class="text-base sm:text-lg leading-relaxed" style="color: var(--text-secondary);">{h.timelineIntro}</p>}
+          </div>
+          <div class="timeline-list">
+            {timeline.map((item) => (
+              <article class="timeline-item">
+                <p class="text-xs uppercase tracking-[0.18em] mb-2" style="color: var(--accent);">{item.period}</p>
+                <h4 class="font-semibold text-xl mb-2" style="color: var(--text-primary);">{item.title}</h4>
+                <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{item.text}</p>
+                {item.source && <p class="source-chip">{item.source}</p>}
+              </article>
+            ))}
+          </div>
+        </div>
+      )}
       <InfoSection embedded />
       <SitePlaques embedded />
       <ScienceArt embedded />
     </div>
   </div>
 </section>
-

@@ -3,6 +3,7 @@ import { getI18n } from '../i18n/ui';
 const { messages } = getI18n(Astro.url);
 const m = messages.mapSection;
 const embedUrl = 'https://www.google.com/maps?q=Yeongildae+Beach+Pohang+South+Korea&output=embed';
+const platforms = m.platforms ?? [];
 ---
 
 <section id="map" class="section-padding" style="background: var(--bg-secondary);">
@@ -23,10 +24,29 @@ const embedUrl = 'https://www.google.com/maps?q=Yeongildae+Beach+Pohang+South+Ko
       ></iframe>
     </div>
 
-    <div class="text-center mt-8">
-      <a href={m.mapsUrl} target="_blank" rel="noopener noreferrer" class="inline-flex w-full sm:w-auto justify-center px-8 py-3 rounded-full font-semibold text-white" style="background: var(--accent);">
-        📍 {m.openMaps}
-      </a>
-    </div>
+    {platforms.length > 0 ? (
+      <div class="mt-8">
+        {m.note && <p class="text-center text-sm mb-4" style="color: var(--text-secondary);">{m.note}</p>}
+        <div class="flex flex-col sm:flex-row gap-3 justify-center">
+          {platforms.map((platform) => (
+            <a
+              href={platform.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex w-full sm:w-auto justify-center px-6 py-3 rounded-full font-semibold border"
+              style="background: var(--card-bg); color: var(--text-primary); border-color: var(--border-color);"
+            >
+              {platform.label}
+            </a>
+          ))}
+        </div>
+      </div>
+    ) : (
+      <div class="text-center mt-8">
+        <a href={m.mapsUrl} target="_blank" rel="noopener noreferrer" class="inline-flex w-full sm:w-auto justify-center px-8 py-3 rounded-full font-semibold text-white" style="background: var(--accent);">
+          {m.openMaps}
+        </a>
+      </div>
+    )}
   </div>
 </section>

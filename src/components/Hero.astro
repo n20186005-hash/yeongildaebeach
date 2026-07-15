@@ -5,6 +5,9 @@ const h = messages.hero;
 const facts = h.quickFacts ?? [];
 const live = h.liveInfo ?? {};
 const planner = h.sunsetPlanner ?? {};
+const identityCard = h.identityCard ?? {};
+const identityItems = identityCard.items ?? [];
+const serviceNotes = h.serviceNotes ?? [];
 ---
 
 <section id="overview" class="relative min-h-[84vh] sm:min-h-[90vh] flex items-center justify-center text-center overflow-hidden">
@@ -22,7 +25,19 @@ const planner = h.sunsetPlanner ?? {};
       {h.subtitle}
     </p>
 
-    <!-- Key facts as icon cards -->
+    {identityItems.length > 0 && (
+      <div class="hero-identity">
+        {identityItems.map((item) => (
+          <div class="hero-identity-card">
+            <span class="hero-identity-label">{item.label}</span>
+            <span class="hero-identity-value">{item.value}</span>
+          </div>
+        ))}
+      </div>
+    )}
+
+    {identityCard.source && <p class="hero-inline-source">{identityCard.source}</p>}
+
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 max-w-2xl mx-auto mb-6">
       {facts.map((f) => (
         <div class="hero-fact">
@@ -33,7 +48,6 @@ const planner = h.sunsetPlanner ?? {};
       ))}
     </div>
 
-    <!-- Live data placeholders -->
     <div class="flex flex-wrap items-center justify-center gap-2 mb-7">
       <span class="live-pill">🌤️ {live.weather}：<span id="current-weather" class="live-placeholder">—</span></span>
       <span class="live-pill">🌅 {live.sunset}：<span id="sunset-time" class="live-placeholder">—</span></span>
@@ -82,7 +96,6 @@ const planner = h.sunsetPlanner ?? {};
       </div>
     )}
 
-    <!-- Strong contrasting CTAs -->
     <div class="flex flex-col sm:flex-row gap-3 justify-center">
       <a href={h.navCta.href} class="btn-cta btn-cta-primary">
         {h.navCta.label}
@@ -97,6 +110,17 @@ const planner = h.sunsetPlanner ?? {};
         {h.openMaps}
       </a>
     </div>
+
+    {serviceNotes.length > 0 && (
+      <div class="hero-service-notes">
+        {serviceNotes.map((note) => (
+          <div class="hero-service-note">
+            {note.title && <strong>{note.title}</strong>}
+            <span>{note.text}</span>
+          </div>
+        ))}
+      </div>
+    )}
   </div>
 
   <script is:inline>

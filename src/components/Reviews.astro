@@ -2,7 +2,9 @@
 import { getI18n } from '../i18n/ui';
 const { messages } = getI18n(Astro.url);
 const r = messages.reviews;
-const stars = (n) => Array.from({ length: 5 }, (_, i) => i < n ? 'star-filled' : 'star-empty');
+const summaryCards = r.summaryCards ?? [];
+const signals = r.signals ?? [];
+const legacyItems = r.items ?? [];
 ---
 
 <section id="reviews" class="section-padding" style="background: var(--bg-primary);">
@@ -10,11 +12,39 @@ const stars = (n) => Array.from({ length: 5 }, (_, i) => i < n ? 'star-filled' :
     <h2 class="font-display text-3xl sm:text-4xl font-semibold mb-3 text-center" style="color: var(--text-primary);">{r.title}</h2>
     <p class="text-center text-base mb-10" style="color: var(--text-secondary);">{r.declaration}</p>
 
-    <div class="grid md:grid-cols-2 gap-6">
-      {r.items.map((item) => (
-        <div class="rounded-2xl p-6 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
-          <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-3">
-            <div class="flex items-center gap-3">
+    {signals.length > 0 && (
+      <div class="grid sm:grid-cols-3 gap-4 mb-6">
+        {signals.map((item) => (
+          <div class="rounded-2xl p-5 border" style="background: var(--bg-secondary); border-color: var(--border-color);">
+            <p class="text-xs uppercase tracking-[0.18em] mb-2" style="color: var(--text-muted);">{item.label}</p>
+            <p class="text-lg font-semibold leading-snug" style="color: var(--text-primary);">{item.value}</p>
+          </div>
+        ))}
+      </div>
+    )}
+
+    {summaryCards.length > 0 ? (
+      <div class="grid md:grid-cols-2 gap-6">
+        {summaryCards.map((card) => (
+          <article class="rounded-2xl p-6 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+            <h3 class="font-semibold text-lg mb-3" style="color: var(--text-primary);">{card.title}</h3>
+            {card.summary && <p class="text-sm leading-relaxed mb-4" style="color: var(--text-secondary);">{card.summary}</p>}
+            {card.items && (
+              <ul class="space-y-3 text-sm" style="color: var(--text-secondary);">
+                {card.items.map((item) => (
+                  <li class="flex gap-3"><span style="color: var(--accent);">•</span><span>{item}</span></li>
+                ))}
+              </ul>
+            )}
+            {card.source && <p class="source-chip">{card.source}</p>}
+          </article>
+        ))}
+      </div>
+    ) : (
+      <div class="grid md:grid-cols-2 gap-6">
+        {legacyItems.map((item) => (
+          <div class="rounded-2xl p-6 border" style="background: var(--card-bg); border-color: var(--border-color); box-shadow: var(--card-shadow);">
+            <div class="flex items-center gap-3 mb-3">
               <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white" style="background: var(--accent);">
                 {item.name.charAt(0)}
               </div>
@@ -23,18 +53,15 @@ const stars = (n) => Array.from({ length: 5 }, (_, i) => i < n ? 'star-filled' :
                 <div class="text-xs" style="color: var(--text-muted);">{item.date}</div>
               </div>
             </div>
-            <div class="flex gap-0.5 text-lg sm:justify-end">
-              {stars(item.rating).map((c) => <span class={c}>★</span>)}
-            </div>
+            <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{item.text}</p>
           </div>
-          <p class="text-base leading-relaxed" style="color: var(--text-secondary);">{item.text}</p>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+    )}
 
     <div class="text-center mt-10">
       <a href={r.mapsUrl} target="_blank" rel="noopener noreferrer" class="inline-flex w-full sm:w-auto justify-center px-8 py-3 rounded-full font-semibold text-white" style="background: var(--accent);">
-        📍 {r.moreReviews}
+        {r.moreReviews}
       </a>
     </div>
   </div>

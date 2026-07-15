@@ -18,6 +18,13 @@ const htmlLang = htmlLangAttr(lang);
 const alts = buildAlternates(path);
 const canonical = alts[lang] ?? alts.zh;
 const { messages } = getI18n(Astro.url);
+const hero = messages.hero ?? {};
+const accessNote =
+  hero.accessNote ??
+  'Public beach area is generally accessible throughout the day. Water access and seasonal facilities depend on weather and official operating periods.';
+const serviceNote =
+  hero.serviceNote ??
+  'Lifeguards, showers, and changing facilities operate seasonally and should be confirmed on site.';
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -61,6 +68,18 @@ const jsonLd = {
     ratingValue: '4.3',
     reviewCount: '7762',
   },
+  additionalProperty: [
+    {
+      '@type': 'PropertyValue',
+      name: 'Access',
+      value: accessNote,
+    },
+    {
+      '@type': 'PropertyValue',
+      name: 'Seasonal services',
+      value: serviceNote,
+    },
+  ],
   sameAs: ['https://maps.app.goo.gl/iGn647PuFKMeiBjcA'],
 };
   const breadcrumbLd = (() => {
@@ -98,9 +117,6 @@ const jsonLd = {
     <meta property="og:url" content={canonical} />
     <meta property="og:locale" content={ogLocale[lang] ?? lang} />
     <meta name="twitter:card" content="summary_large_image" />
-
-    <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
-    <script is:inline async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script>
 
     <script type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)}></script>
     <script type="application/ld+json" is:inline set:html={JSON.stringify(breadcrumbLd)}></script>
