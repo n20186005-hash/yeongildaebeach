@@ -1,0 +1,825 @@
+{
+  "meta": {
+    "title": "Yeongildae Beach (영일대해수욕장) | Pohang, Gyeongsangbuk-do · The Longest White-Sand Beach on Korea's East Coast",
+    "description": "The complete guide to Yeongildae Beach (영일대해수욕장): a white-sand beach in Buk-gu, Pohang, Gyeongsangbuk-do, about 1,750 m long and the largest on Korea's east coast. Famous for New Year sunrise (해돋이), the summer International Fireworks Festival, the red Space Walk aerial trail in Hwanho Park and its long white sand. Opening hours, how to get there, accessibility, photo spots and visitor reviews — all in one place."
+  },
+  "header": {
+    "siteName": "Yeongildae Beach",
+    "home": "Home",
+    "visit": "Visit",
+    "transport": "Getting There",
+    "lodging": "Stay",
+    "history": "History",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "faq": "FAQ",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "common": {
+    "changeLanguage": "Change language",
+    "toggleTheme": "Toggle theme"
+  },
+  "nonprofitBanner": {
+    "text": "This is an independent, non-profit guide compiled by travel enthusiasts to provide the most objective information about visiting Yeongildae Beach. It is free, and we are affiliated with no organization.",
+    "dataSource": "All historical background, beach data and festival information on this site are cross-checked against public materials from the Korea Tourism Organization (KTO), Pohang City Hall and the Gyeongsangbuk-do Provincial Government, with no commercial recommendations."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "text": "So that every traveler visiting Pohang can experience the longest white-sand beach on the east coast, we have organized scattered official information into this guide — only to give you the purest sunrise, sea breeze and fireworks."
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "region": "Gyeongsangbuk-do",
+    "city": "Pohang",
+    "current": "Yeongildae Beach"
+  },
+  "stickyNav": {
+    "facts": "Key Facts",
+    "etiquette": "Beach Etiquette",
+    "route": "Half-Day Route",
+    "transport": "Getting There",
+    "lodging": "Stay",
+    "visit": "Visit Tips",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "title": "Yeongildae Beach (영일대해수욕장)",
+    "subtitle": "The longest white-sand beach on Korea's east coast, about 1,750 m long. The year's first sunlight rises here on New Year's Day, summer nights are lit up by the International Fireworks Festival, and the red Space Walk intertwines with the endless coastline at your feet — Pohang's love letter to the sea.",
+    "rating": "4.3 (7,762)",
+    "reviewCount": "7,762 reviews",
+    "hours": "Open 24 hours (public beach area)",
+    "openMaps": "View location on Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/iGn647PuFKMeiBjcA",
+    "tags": ["East coast's longest white-sand beach", "New Year sunrise spot", "Free · public beach"],
+    "routeCta": {
+      "label": "Plan your route",
+      "href": "#transport"
+    },
+    "historyCta": {
+      "label": "Learn its story",
+      "href": "#history"
+    },
+    "quickFacts": [
+      { "icon": "🏖️", "label": "Highlights", "value": "White-sand beach" },
+      { "icon": "🆓", "label": "Admission", "value": "Free" },
+      { "icon": "🕐", "label": "Open", "value": "24 hours" }
+    ],
+    "navCta": { "label": "📍 Navigate", "href": "#transport" },
+    "photoCta": { "label": "📸 Photo spots", "href": "#gallery" },
+    "liveInfo": { "weather": "Current weather", "sunset": "Today's sunset" },
+    "sunsetPlanner": {
+      "eyebrow": "Golden Hour Calculator · Light Tool",
+      "title": "Based on today's sunset, we suggest arriving about 60 minutes earlier to catch both the softest diffuse light and the blue-hour seascape.",
+      "note": "The white sand faces east and the open sea; light is warmest from afternoon to dusk. On peak summer weekends, allow extra time to avoid the crowds.",
+      "seaGlare": "Sea Glare correction: Yeongildae faces the east / southeast bay, so the beach is front-lit at dawn with calm water; after 15:00 the whole shore gets warm side-light and the sea reflects golden glints — an industrial-grade frame of 'sand – city – sea' together.",
+      "arriveLabel": "Suggested arrival",
+      "blueHourLabel": "Blue hour"
+    }
+  },
+  "quickFactsDashboard": {
+    "title": "Yeongildae at a Glance · Data Board",
+    "subtitle": "A few numbers to understand this longest white-sand beach on the east coast.",
+    "items": [
+      { "icon": "📏", "label": "Beach length / Length", "value": "about 1,750 m", "note": "With a white-sand belt about 50 m wide, Yeongildae is among the largest and finest white-sand beaches on Korea's east coast, covering about 406,000 m²." },
+      { "icon": "🌅", "label": "Sunrise / Sunrise", "value": "New Year 해돋이", "note": "Facing the open east sea, it is a representative Korean 'sun-greeting' (해맞이) spot; every New Year's dawn crowds gather to welcome the first light." },
+      { "icon": "🎆", "label": "Fireworks / Fireworks", "value": "since 2008", "note": "The Pohang International Fireworks Festival (포항국제불꽃축제) has been held on the Yeongildae sea each summer since 2008, one of Korea's largest sea fireworks events." },
+      { "icon": "🆓", "label": "Admission / Admission", "value": "0 KRW", "note": "A public beach, free and open long-term, no ticket or reservation; lifeguards and changing facilities operate only in the swimming season." },
+      { "icon": "📍", "label": "Location / Location", "value": "36°04′N, 129°23′E", "note": "Plus Code: 394H+F7 Pohang. Next to Yeongil Bay (영일만), within walking distance of Hwanho Park and the Space Walk." },
+      { "icon": "🚶", "label": "Terrain / Terrain", "value": "Gentle white sand", "note": "Wide, gently sloped, soft white sand suits family wading and strolls; night lighting and sea views form Pohang's signature urban coastline." }
+    ]
+  },
+  "hiddenRules": {
+    "title": "Beach & Water Safety Tips",
+    "subtitle": "The hard part of Yeongildae is not finding the way, but remembering 'this is a public beach shared with the sea'. Think about tides, sun protection and water safety, and the experience upgrades from 'rushing check-ins' to 'relaxed play'.",
+    "highlights": [
+      { "icon": "🌊", "label": "Water safety", "value": "Swim by the flag", "note": "The beach has red / yellow safety flags and lifeguards (swimming season). Enter the water only in designated zones when flags allow; stay away from breakwaters and rip-current areas." },
+      { "icon": "☀️", "label": "Sun & wind", "value": "Strong UV", "note": "Coastal UV is strong and sea breeze hides dehydration; reapply sunscreen, wear a hat and drink water on long exposures." },
+      { "icon": "🚸", "label": "Families & seniors", "value": "Keep it gentle", "note": "Soft sloping sand suits family wading, but tides change fast; watch children and avoid wet rocks at high tide." }
+    ],
+    "panels": [
+      {
+        "q": "Can non-swimmers go into the sea?",
+        "a": "Yes, but only inside lifeguarded swimming zones, following the safety flags, and wearing flotation aids. Yeongildae's gentle slope is good for shallow wading, but do not go far from shore alone.",
+        "items": ["Children and non-swimmers should stay in the shallow flagged zone.", "Heed announcements and flag changes; no swimming during typhoons or high surf."]
+      },
+      {
+        "q": "Why be careful around breakwaters and rocks?",
+        "a": "Breakwaters, reefs and piers often hide rip currents and backwash even when the surface looks calm; stay in the open white-sand water and do not climb fences or rocks."
+      },
+      {
+        "q": "Can I light a fire or set off fireworks on the beach?",
+        "a": "No. Open fires and private fireworks are strictly prohibited on the public beach; for the official fireworks festival, use the designated viewing areas and follow on-site staff."
+      }
+    ]
+  },
+  "complianceGuide": {
+    "title": "Yeongildae · Beach Etiquette & Public Environment Guide",
+    "subtitle": "This is both a visitor's coast and the citizens' daily seaside. Following these rules is respect for both people and the ocean.",
+    "rules": [
+      {
+        "badge": "🚮",
+        "title": "Take your trash with you",
+        "text": "Beach bins are limited and sea wind scatters litter; bring a small bag and take everything away, especially cigarette butts, plastics and food waste."
+      },
+      {
+        "badge": "🔇",
+        "title": "Enjoy quietly",
+        "text": "Many come specifically for sunrise and sunset; lower your voice and don't blast music, leaving the calm to the sea and sky."
+      },
+      {
+        "badge": "🚭",
+        "title": "No smoking & fire-free",
+        "text": "Dry sand and vegetation are flammable; the whole area is smoke-free and open flames are banned; follow on-site fire control during the fireworks festival."
+      },
+      {
+        "badge": "🐚",
+        "title": "Protect the beach ecosystem",
+        "text": "Do not dig up or take sand and shells, and do not disturb shorebirds and tidal creatures; leaving the beach as it is is the most basic respect for the ocean."
+      }
+    ]
+  },
+  "higashiyamaRoute": {
+    "title": "Custom Itinerary: Yeongildae Coast Half-Day Loop",
+    "subtitle": "Not just 'who it suits', but a walkable half-day route. Centered on Yeongildae, it links the Space Walk, Hwanho Park and Pohang's night views.",
+    "steps": [
+      { "title": "[Start] Yeongildae beach walk & wading", "meta": "Beach · ~60 min", "text": "Start at the white-sand beach to gather supplies and use the restroom, stroll and wade along the long shore, leaving the soft morning light for the sea and hills.", "tips": ["The beach is flat, good for warm-up and photos."] },
+      { "title": "[Main] Space Walk red aerial trail", "meta": "Core experience · ~45 min", "text": "Walk from the beach to neighboring Hwanho Park and climb the 330 m red spiral aerial trail, Space Walk, overlooking Yeongil Bay and the coastline.", "tips": ["With small children or seniors, use the gentle entrance; no need to reach the top."] },
+      { "title": "[Extend] Hwanho Park green & view", "meta": "Viewpoint · ~30 min", "text": "At the end of the trail is open green space and a sea-view platform; descend slowly to string 'beach – trail – bay' into one line." },
+      { "title": "[Loop] Jukdo Market (죽도시장) food", "meta": "Food stop · ~50 min", "text": "Leave the coast for Pohang's representative Jukdo Market; try mulhoe (cold raw fish soup), seafood and snacks, linking the coast trip to local flavors.", "tips": ["If the beach is crowded in peak season, have dinner at the market to avoid the rush."] },
+      { "title": "[End] Yeongildae night view or return", "meta": "Wrap · ~60 min+", "text": "If time allows, return to Yeongildae at dusk for the urban coastline lights, or take a bus / taxi back, wrapping this into a complete 'beach + trail + food' half-day package.", "tips": ["In peak season, schedule dinner at the market to dodge crowds."] }
+    ],
+    "disclaimer": "The route emphasizes a closed loop that 'works even if you just follow it'; if you only want the sea, keep the first two segments and treat the market and night view as flexible add-ons."
+  },
+  "intro": {
+    "title": "Getting to Know Yeongildae Beach",
+    "description": "Yeongildae Beach (영일대해수욕장) lies in Duho-dong, Buk-gu, Pohang, Gyeongsangbuk-do, a long white-sand beach facing due east along Yeongil Bay. 'Yeongildae (영일대)' combines 'Yeongil (영일, Yeongil Bay)' and 'dae (대, observation terrace / high ground)', originally an ordinary waterfront in Pohang's port area. As Pohang grew from a fishing port into a steel city, Yeongildae was gradually developed into a citizen's leisure beach, and with its open east-sea views, fine white sand and urban coastline became one of the most representative beaches on Korea's east coast. More importantly, it preserves a narrative few beaches display so openly: how a public stretch of sand carries a city's sunrise ritual, summer-night fireworks and everyday sea breeze.",
+    "visitGuide": {
+      "title": "Visit Guide",
+      "eyebrow": "Practical Planning",
+      "description": "Yeongildae is a free, open public beach with no gate and no reservation. The ideal approach is usually not 'wander by day' but reverse-planning around light and tide: come at dawn for the New Year or daily sunrise, leave the warm afternoon-to-dusk light for the white sand and sea, and enjoy the urban coastline lights at night. Facilities are restrained and commercial feel is low — which is exactly its charm.",
+      "items": [
+        "Best at dawn sunrise or afternoon-to-dusk: east-facing sea is warmest then, white sand and seascape frame best.",
+        "Best viewpoints are the beach's north section and the top of Space Walk, capturing sand, bay and skyline together.",
+        "About a 10–15 min walk from the beach to Hwanho Park and Space Walk.",
+        "Almost no commercial supply on the beach; water, restrooms and breaks are better at the entrance or nearby."
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "One of the largest white-sand beaches on Korea's east coast, about 1,750 m long",
+        "Facing due east, a representative New Year sunrise (해돋이) spot",
+        "Venue of the summer Pohang International Fireworks Festival, giant sea fireworks",
+        "Next to the 330 m red aerial trail Space Walk and Hwanho Park",
+        "Free and highly public — the face of Pohang's urban coastline"
+      ]
+    }
+  },
+  "transportSection": {
+    "title": "Transportation & Getting Here",
+    "subtitle": "Combine arriving in Pohang, city transfers, walking/cycling, parking and charging into one clear structure for planning your Yeongildae trip.",
+    "overviewTitle": "After arriving in Pohang",
+    "overviewText": "Yeongildae is in Duho-dong, Buk-gu, Pohang, Gyeongsangbuk-do, next to Yeongil Bay (영일만), Pohang's representative urban coast. The easiest long-distance option is KTX to Pohang Station from Seoul (~2 h), or flights via Seoul Gimpo / Busan Gimhae; once in the city, the beach is about a 15 min drive from Pohang Station. Yeongildae is an open public beach, a 10–15 min walk from the beach to Hwanho Park and Space Walk.",
+    "overviewText2": "Yeongildae is open sand with no gate. Plan transport, parking and walking together — especially with seniors, children or luggage, parking at a public lot then walking in saves a lot of hassle.",
+    "arrivalTitle": "Remember before departure",
+    "arrivalItems": [
+      "Yeongildae is in Duho-dong, Buk-gu, Pohang; about a 15 min taxi from Pohang Station.",
+      "Several public parking lots surround the beach; they fill fast on peak weekends — arrive early or prefer transit.",
+      "Crowds are heavy on weekends and holidays; strongly prefer public transit or off-peak visits."
+    ],
+    "modes": [
+      {
+        "label": "Flight (Pohang / Seoul / Busan)",
+        "icon": "✈️",
+        "title": "Fly then transfer to Pohang",
+        "description": "Most common for overseas and domestic long-haul; nearest Pohang Airport (KPO) has Seoul Gimpo flights, and Busan Gimhae, Daegu, Ulsan airports also connect.",
+        "details": [
+          "Pohang Airport (KPO): about 30–40 min to Yeongildae; take an airport bus or taxi.",
+          "Seoul Gimpo (GMP) / Incheon (ICN): domestic flight to Pohang, or transfer to KTX to Pohang Station ~2 h.",
+          "After arriving in Pohang, take a city bus / taxi to Yeongildae (see below)."
+        ],
+        "steps": [
+          { "n": "1", "t": "Fly to Pohang Airport or Seoul / Busan airport." },
+          { "n": "2", "t": "Take airport bus / KTX into Pohang, then transfer." },
+          { "n": "3", "t": "In Pohang, taxi or bus to Yeongildae, then walk to the sand." }
+        ]
+      },
+      {
+        "label": "Train (KTX to Pohang Station)",
+        "icon": "🚆",
+        "title": "KTX direct to Pohang",
+        "description": "Easiest for most long-distance travelers; KTX / subway from Seoul, Daejeon, Daegu reach Pohang Station directly.",
+        "details": [
+          "KTX from Seoul Station to Pohang Station, about 2 h.",
+          "Transfer at Dongdaegu to Pohang about 1 h, frequent service.",
+          "Use T-money / transport card for easy bus and taxi connections."
+        ],
+        "steps": [
+          { "n": "1", "t": "Take KTX to Pohang Station." },
+          { "n": "2", "t": "Transfer to city bus or taxi to Yeongildae." },
+          { "n": "3", "t": "About a 15 min ride from Pohang Station to the beach." }
+        ]
+      },
+      {
+        "label": "Public transit (express / intercity bus)",
+        "icon": "🚌",
+        "title": "Seoul direct express bus to Pohang",
+        "description": "Easiest for most travelers; Seoul, Daegu, Busan and more have direct express / intercity buses to Pohang.",
+        "details": [
+          "From Seoul Express Bus Terminal (Gangnam) take a 'Pohang' bus, about 4 h.",
+          "After arriving at Pohang Intercity Bus Terminal, take a city bus or taxi to Yeongildae.",
+          "Buses accept T-money; use a map app for real-time arrivals."
+        ],
+        "steps": [
+          { "n": "1", "t": "Take express / intercity bus directly to Pohang Terminal." },
+          { "n": "2", "t": "Transfer to city bus or taxi to Yeongildae." },
+          { "n": "3", "t": "Walk from the entrance into the beach." }
+        ]
+      },
+      {
+        "label": "Driving (parking / charging)",
+        "icon": "🅿️",
+        "title": "Via highway · nearby parking",
+        "description": "Good with children, seniors, lots of luggage or a Gyeongbuk tour; several public lots surround the beach.",
+        "details": [
+          "Set destination to '영일대해수욕장' or address '1015 Duho-dong, Buk-gu, Pohang-si, Gyeongsangbuk-do'.",
+          "Beach-side public lots have more spaces but fill on peak weekends — arrive early.",
+          "Some public lots have EV chargers; coastal wind is strong, mind crosswinds and parking."
+        ],
+        "steps": [
+          { "n": "1", "t": "Navigate to 'Yeongildae Beach' or 'Hwanho Park parking'." },
+          { "n": "2", "t": "Park in a public / paid lot, walk to the sand." },
+          { "n": "3", "t": "Avoid the 10:00–18:00 peak to save parking time." }
+        ]
+      },
+      {
+        "label": "Taxi / ride-hail",
+        "icon": "🚕",
+        "title": "Door-to-door",
+        "description": "Easiest with luggage, children/seniors or early / late arrivals.",
+        "details": [
+          "Taxi from Pohang Station or city to Yeongildae about 15 min, roughly 6,000–10,000 KRW (meter based).",
+          "Walk from the beach entrance to the sand.",
+          "Taxis queue on peak days and in rain/snow; reserve via a local app (e.g. Kakao T)."
+        ],
+        "steps": [
+          { "n": "1", "t": "Call a car via Kakao T etc." },
+          { "n": "2", "t": "Tell the driver '영일대해수욕장'." },
+          { "n": "3", "t": "Alight at the beach entrance, walk to the sand." }
+        ]
+      },
+      {
+        "label": "Cycling / walking",
+        "icon": "🚲",
+        "title": "Coastal greenway & beach stroll",
+        "description": "The most relaxing way to feel Pohang's coast and city.",
+        "details": [
+          "The beach links on foot to Hwanho Park and Space Walk along the coast.",
+          "Park bikes at the park racks; no riding on sand or trails.",
+          "About a 10–15 min walk from the beach to Space Walk, sea views throughout."
+        ],
+        "steps": [
+          { "n": "1", "t": "Stroll the coast or rent a public bike at the beach / Hwanho Park." },
+          { "n": "2", "t": "Walk the greenway toward Space Walk." },
+          { "n": "3", "t": "Lock the bike at the trail entrance, walk up the red aerial trail." }
+        ]
+      },
+      {
+        "label": "Walking (neighborhood roam)",
+        "icon": "🚶",
+        "title": "From parking to sand",
+        "description": "If already in Pohang or near the beach, walking is the natural way to observe the coast-city transition.",
+        "details": [
+          "About a 3–10 min walk from surrounding public lots to the beach entrance.",
+          "Pass coast, green space and snacks along the way.",
+          "Sand has slight slopes; wear comfortable shoes and watch children."
+        ]
+      }
+    ],
+    "parking": {
+      "title": "Parking & Charging Overview",
+      "note": "Several public parking lots surround Yeongildae; below are the nearest main options. Rates and availability vary by season and time — follow on-site signs.",
+      "colOption": "Option",
+      "colDistance": "Distance",
+      "colPrice": "Price",
+      "options": [
+        { "name": "Yeongildae seaside public parking", "distance": "about 100–300 m (to sand)", "price": "Public paid, lower rate, fills in peak" },
+        { "name": "Hwanho Park (Space Walk) parking", "distance": "about 300–600 m", "price": "Park annex parking, more spaces but tight in peak" },
+        { "name": "Surrounding street parking", "distance": "about 200–500 m", "price": "Roadside / small lots, few spaces, easier off-peak" },
+        { "name": "Jukdo Market周边 parking", "distance": "about 1.5–2.5 km", "price": "Market / mall parking, tight on holidays" },
+        { "name": "Drop-off (beach entrance)", "distance": "about 100 m", "price": "Short stop only, no spaces" }
+      ],
+      "disclaimer": "Beach roads are extremely congested on holidays and peak season; do not block bus and fire lanes. EV chargers are common at seaside public lots and Hwanho Park; rates and limits may change — check posted signs."
+    },
+    "driverFaqTitle": "Transport Q&A",
+    "driverFaq": [
+      { "q": "Is there parking near Yeongildae?", "a": "Several public lots surround the beach, such as Yeongildae seaside public parking and Hwanho Park parking, within walking distance. They fill fast on peak weekends — arrive early or park further out and walk the last stretch." },
+      { "q": "What is the nearest parking?", "a": "Yeongildae seaside public parking is about 100–300 m away, the closest to the sand; Hwanho Park parking is about 300–600 m, more spaces but tight in peak." },
+      { "q": "Is there roadside parking nearby?", "a": "Very little. Beach roads are narrow and congested on holidays; use proper lots and public transit, no long roadside parking." },
+      { "q": "Is driving recommended for Yeongildae?", "a": "Unless parking is essential, driving is not advised. Weekends and peak season are very congested; walking or transit is smoother. If driving, park at a surrounding lot then walk in." },
+      { "q": "Do you recommend public transit?", "a": "Strongly. Take KTX / express bus to Pohang, then city bus or taxi to Yeongildae and walk to the sand. Address: 1015 Duho-dong, Buk-gu, Pohang-si, Gyeongsangbuk-do, South Korea." },
+      { "q": "What is the best way to get here?", "a": "For stability and ease, transit is still best: KTX / express bus to Pohang, transfer to the beach then walk in. If you must drive, treat parking and transfer as part of the trip, not 'park at the door'." }
+    ],
+    "localTipsTitle": "Practical tips",
+    "localTips": [
+      "Dawn sunrise remains the golden window, but set your baseline as 'arrive 30–60 min before sunrise', not 'arrive at the entrance'.",
+      "Crowds are high on weekends and summer break; allow buffer and off-peak time with kids or gear.",
+      "Yeongildae pairs best with Space Walk, Hwanho Park and Jukdo Market; a single stop underestimates its urban-coast value."
+    ],
+    "mapsCta": "View map & route",
+    "mapsUrl": "https://maps.app.goo.gl/iGn647PuFKMeiBjcA",
+    "bestTime": {
+      "title": "Best time to arrive",
+      "text": "Yeongildae is accessible all day, but the photo ceiling is the dawn sunrise window. Arrive about 30–60 min before sunrise; if weather is poor for the sea, shift focus to Space Walk, Jukdo Market food or Pohang museums."
+    }
+  },
+  "officialManagement": {
+    "title": "About This Beach",
+    "text": "Yeongildae Beach lies in Buk-gu, Pohang, Gyeongsangbuk-do, a city beach grown from the old port waterfront, maintained as public space by Pohang City and Gyeongsangbuk-do. It has long been an open place for citizens' strolls, travelers' sea views and New Year's first light, and is one of Pohang's city cards as the 'City of Steel · Sea Capital'."
+  },
+  "humanities": {
+    "title": "Humanities & Urban-Coast Research",
+    "subtitle": "Put the fishing-port past, steel city, sunrise ritual and fireworks festival on one timeline to truly understand why this beach is more than 'pretty sand'."
+  },
+  "knowledge": {
+    "title": "Yeongildae's History & Urban Origins",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Name & past: a waterfront by the port",
+        "content": "'Yeongildae (영일대)' combines 'Yeongil (영일, Yeongil Bay)' and 'dae (대, observation terrace / high ground)', originally an ordinary waterfront in Duho-dong, Buk-gu near Yeongil Bay. Before becoming a city beach, it was a plain cove corner with fishing boats and sea breeze; as Pohang moved from fishing port to industrial city, this sand was gradually brought into citizens' daily leisure."
+      },
+      {
+        "id": "name",
+        "title": "The name 'Yeongildae': a terrace facing the rising sun",
+        "content": "As the name suggests, Yeongildae is 'the high ground that greets the rising sun'. Facing the open east sea, it has been where coastal residents welcomed the first morning light since ancient times. The name hides both the bay's name (Yeongil Bay) and a city character that faces the sea and welcomes light — the very geographical root where the New Year 'sun-greeting' (해맞이) tradition later landed."
+      },
+      {
+        "id": "port",
+        "title": "Fishing port & shipping: the past of Yeongil Bay",
+        "content": "Yeongil Bay (영일만) has been a fishing and shipping hub since old times, and Pohang prospered by its port. The Yeongildae area next to the bay was once a vibrant front of fishery and shipping; now famous for white sand, sunrise and urban coastline, the industrial and fishing DNA of the bay still settles faintly in the sea breeze."
+      },
+      {
+        "id": "steel",
+        "title": "City of Steel: POSCO and Pohang's transformation",
+        "content": "In the late 1960s, Pohang Iron and Steel (POSCO) built a plant on the south shore of Yeongil Bay, pushing a fishing-port town onto the stage of the 'Steel Capital'. The industrial rise brought population, port and urban facilities, and turned Yeongildae from a fishing-village shore into a citizen-shared urban coast living room — steel and sea have been Pohang's most vivid dual tones ever since."
+      },
+      {
+        "id": "sunrise",
+        "title": "New Year sunrise (해돋이) ritual",
+        "content": "The open east sea makes Yeongildae a representative Korean 'sun-greeting' (해맞이) spot. Every New Year's dawn, crowds brave the cold to welcome the year's first sunlight, entrusting wishes for the new year to the red light rising above the horizon. This ritual lets an ordinary beach carry a collective emotional memory."
+      },
+      {
+        "id": "fireworks",
+        "title": "Pohang International Fireworks Festival (포항국제불꽃축제)",
+        "content": "Since 2008, the annual summer Pohang International Fireworks Festival is held on the Yeongildae sea, themed on 'steel and fire', translating the city's industrial DNA into giant fireworks in the night sky. Blooming on the water and mirrored in the waves, Yeongildae gains another layer of national memory — the 'summer-night fireworks' — beyond its sunrise fame."
+      },
+      {
+        "id": "spacewalk",
+        "title": "Space Walk: the red aerial trail",
+        "content": "Inside Hwanho Park next to Yeongildae runs a ~330 m red spiral aerial trail, 'Space Walk'. Like a red ribbon floating above the coast, it weaves the beach, green space and Yeongil Bay seascape into one walking experience — Pohang's most recognizable recent landmark, and it completes Yeongildae's 'look down at the sea from above' viewpoint."
+      },
+      {
+        "id": "modern",
+        "title": "Why it is called 'the east coast's representative beach'",
+        "content": "The most common impression among visitors is Yeongildae as 'Pohang's white-sand promenade facing the sea'. In fact, its charm is not only good looks, but that a public beach holds together the sunrise ritual, summer-night fireworks, the distant steel city and citizens' everyday sea breeze — Yeongildae is remembered precisely because it writes Pohang's most typical 'sea and city' into one coastline."
+      }
+    ],
+    "didYouKnow": {
+      "title": "Did you know?",
+      "text": "Yeongildae is not just sand, but the emotional living room of Pohang, a city of 'steel and sea' — from the New Year sun-greeting ritual to summer-night fireworks, sea and city are written into one shared public memory here."
+    }
+  },
+  "sitePlaques": {
+    "title": "Reading the On-Site Signs",
+    "subtitle": "What's worth reading slowly on site is often not the photo badge, but the official signs explaining 'why this sea is here'.",
+    "intro": "The readings below are based on Pohang City's Yeongildae beach introductions, Yeongil Bay ecology notes and Space Walk guides, turning information visible on site but not always read closely into understandable English.",
+    "items": [
+      {
+        "id": "monument",
+        "badge": "Beach safety sign",
+        "title": "Swimming safety flags & lifeguards",
+        "koTitle": "영일대해수욕장 안전 안내",
+        "koTitleZh": "Yeongildae Beach safety guide",
+        "location": "Both sides of the swimming-zone entrance",
+        "body": "These signs give the key safety info: meaning of red / yellow flags, lifeguard hours, and no-swim warnings for high surf / typhoon. Reading the flags is lesson one in using this public beach."
+      },
+      {
+        "id": "signboard",
+        "badge": "Yeongil Bay ecology (KO/EN)",
+        "title": "Bay, tides & sea ecology",
+        "koTitle": "영일만 · 바다 조망",
+        "koTitleZh": "Yeongil Bay · sea view",
+        "location": "North beach viewpoint",
+        "body": "The signs stress Yeongildae's status as Pohang's representative bay and remind visitors that half the white-sand beauty is sand, half is the real sea in front. The tidal flat at low tide is the best window to observe shellfish and shorebirds."
+      },
+      {
+        "id": "wooden",
+        "badge": "Space Walk guide",
+        "title": "Red aerial trail & urban coast",
+        "koTitle": "스페이스워크 · 해안 산책로",
+        "koTitleZh": "Space Walk · coastal trail",
+        "location": "Hwanho Park trail entrance",
+        "body": "The guide explains 'how to use this coast without disturbing the beach'. The red trail builds the ritual of looking down at the sea, the green space guides flow on safe paths, and the beach handles water contact and rest — together the design logic of Yeongildae becomes clear."
+      },
+      {
+        "id": "dongporu",
+        "badge": "Fireworks festival marker",
+        "title": "Pohang International Fireworks venue",
+        "koTitle": "포항국제불꽃축제 개최지",
+        "koTitleZh": "Pohang International Fireworks venue",
+        "location": "By the beach sea-view platform",
+        "body": "Erected by Pohang City, marking the international fireworks festival held here every summer since 2008. It reminds every visitor: this white sand is lit up by the national memory of 'steel and fire' on summer nights."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "From the long white sand, due-east sunrise, the red Space Walk to summer-night fireworks — the visual beauty of Yeongildae Beach.",
+    "photoAlt": "Yeongildae Beach (영일대해수욕장)",
+    "photoAlts": [
+      "Panorama of Yeongildae's long white-sand beach with Yeongil Bay and the skyline beyond.",
+      "Quiet empty beach at dawn, calm sea, best for slow sunrise shots.",
+      "New Year sunrise (해돋이) on the due-east sea, red light across the horizon.",
+      "Warm afternoon sand, white sand and seascape frame best at dusk.",
+      "The red spiral aerial trail Space Walk, like a red ribbon floating on the sea.",
+      "Overlooking Yeongildae beach and Yeongil Bay harbor from the top of Space Walk.",
+      "Hwanho Park green space and sea-view platform linking beach and urban coast.",
+      "Tidal flat at low tide with shellfish and foraging shorebirds.",
+      "Blue-and-white coastal wall, echoing Pohang's peninsular port palette.",
+      "Classic composition using the sand as a lead-in to bay and skyline.",
+      "North-beach wooden boardwalk, one of Yeongildae's most recognizable photo spots.",
+      "Warm family wading scene; gentle slope suits family water play.",
+      "Warm dusk sand, afterglow drawing golden glints on the sea.",
+      "Sunset with white sand, afternoon-to-dusk is the best window.",
+      "Shore scene with gulls and fishing boats, echoing Pohang's fishing past.",
+      "High viewpoint capturing 'sand – trail – bay – city' in one frame.",
+      "Summer fireworks on site, giant fireworks mirrored on the waves.",
+      "Urban coastline night lights; Yeongildae becomes Pohang's romantic coast at night.",
+      "Warm-toned beach path, showing the public beach gently embraced by the city.",
+      "Beach in morning mist, the port city's occasional quiet at dawn.",
+      "Couples and independent travelers posing on the red trail.",
+      "Snowy quiet coast, the port city's occasional winter stillness."
+    ],
+    "viewAll": "View location on Google Maps",
+    "showMore": "Show more photos",
+    "mapsUrl": "https://maps.app.goo.gl/iGn647PuFKMeiBjcA"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Visitor feedback is available on Google Maps (external link).",
+    "featuredTitle": "Visitor Quotes",
+    "featuredSubtitle": "A few short lines that capture Yeongildae's character.",
+    "moreReviews": "View on Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/iGn647PuFKMeiBjcA",
+    "featured": [
+      {
+        "text": "Walking east along the long white sand, every wave is like a poster; the dawn sunrise dyes the whole sea gold — so healing.",
+        "source": "Independent traveler · Seoul"
+      },
+      {
+        "text": "A white-sand promenade facing the sea, free and easy to stroll — Pohang's gentlest coastal corner.",
+        "source": "Photographer · Gyeongsangbuk-do"
+      },
+      {
+        "text": "With kids slowly along the gentle sand, the red Space Walk surprised the little ones and was easy for seniors too.",
+        "source": "Family · Daegu"
+      }
+    ],
+    "items": [
+      {
+        "name": "Minjun",
+        "date": "May 2026",
+        "rating": 5,
+        "text": "Visited at dawn; the sunrise on the sea is super photogenic, and the moment overlooking the whole beach from Space Walk was silent — strongly recommend sunrise, best light."
+      },
+      {
+        "name": "Seoyeon",
+        "date": "Apr 2026",
+        "rating": 5,
+        "text": "Wide beach, great views; the gentle entrance is family-friendly, coastal wind is strong so bring a jacket."
+      },
+      {
+        "name": "Jihoon",
+        "date": "Mar 2026",
+        "rating": 4,
+        "text": "Worth it as a free public beach; summer gets crowded, weekdays or early morning are more comfortable."
+      },
+      {
+        "name": "Ha-eun",
+        "date": "Feb 2026",
+        "rating": 5,
+        "text": "About a 10 min walk from the beach to Space Walk; the coast along the way is pleasant, good for a half-day stroll."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "How to Get Here",
+    "subtitle": "1015 Duho-dong, Buk-gu, Pohang-si, Gyeongsangbuk-do, South Korea (Plus Code: 394H+F7)",
+    "openMaps": "Open in Google Maps",
+    "mapsUrl": "https://maps.app.goo.gl/iGn647PuFKMeiBjcA"
+  },
+  "footer": {
+    "siteName": "Yeongildae Beach (영일대해수욕장)",
+    "rights": "© 2026 Yeongildae Beach Guide — an independent non-profit attraction information project. All rights reserved.",
+    "mission": {
+      "title": "Our Mission",
+      "text": "So that every traveler visiting Pohang can experience the longest white-sand beach on the east coast, we have organized scattered official information into this guide — only to give you the purest sunrise, sea breeze and fireworks."
+    },
+    "legalLinksTitle": "Privacy & Terms",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Official & Reference Resources",
+    "mapsLabel": "Google Maps →",
+    "mapsUrl": "https://maps.app.goo.gl/iGn647PuFKMeiBjcA",
+    "officialLinksList": [
+      { "name": "Korea Tourism Organization (Visit Korea) — Yeongildae page", "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=91112" },
+      { "name": "Ministry of Oceans and Fisheries — Port of Pohang", "url": "https://pohang.mof.go.kr/en/page.do?menuIdx=2896" },
+      { "name": "Pohang City official tourism portal (Pohang Tour)", "url": "https://www.pohang.go.kr/phtour/index.do" },
+      { "name": "Gyeongsangbuk-do Top 100 Attractions", "url": "https://inseri.gb.go.kr/Main/page.do?mnu_uid=6082&dept_code=&dept_name=&BD_CODE=gb_eng_new&bdName=&cmd=2&Start=72&B_NUM=19111733&B_STEP=261367300&B_LEVEL=0&key=4&word=&p1=0&p2=0&V_NUM=205&tbbscode1=gb_eng_new&MEDIUM_CODE=50" },
+      { "name": "Pohang official walking trail guide", "url": "https://www.pohang.go.kr/eng/contents.do?mid=0202040000" }
+    ],
+    "disclaimer": "This website is an independent non-profit visitor information project. We are affiliated with no government agency or official organization.",
+    "dataSource": "All historical background, beach data and festival information referenced on this site are cross-checked against public materials from the Korea Tourism Organization (KTO), Pohang City Hall and the Gyeongsangbuk-do Provincial Government, with no commercial recommendations.",
+    "dataSourceLabel": "Data Source"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: June 2026",
+    "sections": [
+      { "heading": "1. Information Collection", "content": "We generally do not actively collect users' personal identity information. Any information you provide via contact forms or email will be kept strictly confidential." },
+      { "heading": "2. Use of Information", "content": "Information we collect is used only to provide, maintain and improve our services and to communicate with you. We will not sell or share your personal information with third parties for marketing purposes." },
+      { "heading": "3. Cookies & Tracking", "content": "We use cookies and similar tracking technologies to record activity on the site and store certain information. You can instruct your browser to refuse all cookies or to alert you when a cookie is sent." },
+      { "heading": "4. Data Security", "content": "Your data security matters to us. We take commercially reasonable measures to protect your personal data, though no internet transmission is 100% secure." }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: June 2026",
+    "sections": [
+      { "heading": "1. Acceptance of Terms", "content": "By accessing and using this website, you agree to be bound by these terms. If you disagree with any part, do not use the service." },
+      { "heading": "2. Use of Service", "content": "This website is an independent non-profit visitor information project. The information provided is for general informational purposes only. You agree to use the site responsibly and lawfully." },
+      { "heading": "3. Intellectual Property", "content": "All content on this site, including text, images and logos, unless otherwise stated, is the property of the site owner. Unauthorized use, reproduction or distribution is strictly prohibited." },
+      { "heading": "4. Limitation of Liability", "content": "We are not liable for any direct, indirect, incidental or consequential damages arising from the use or inability to use this site or the information contained in it." }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences.",
+    "essential": { "title": "Strictly Necessary Cookies", "description": "Required for basic site function.", "badge": "Always active" },
+    "analytics": { "title": "Analytics Cookies", "description": "Help us understand how visitors interact with the site." },
+    "marketing": { "title": "Marketing Cookies", "description": "Used to track visitors across sites." },
+    "save": "Save preferences",
+    "saved": "Preferences saved!"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Practical information about Yeongildae Beach's facilities, history and visit planning.",
+    "amenities": {
+      "title": "Nearby Facilities",
+      "items": [
+        { "icon": "🅿️", "label": "Parking", "value": "Seaside public lot / Hwanho Park lot" },
+        { "icon": "🚻", "label": "Restrooms", "value": "Beach entrance & park restrooms" },
+        { "icon": "🔌", "label": "Fuel / EV charge", "value": "EV chargers at nearby public lots" },
+        { "icon": "♿", "label": "Accessibility", "value": "Gentle sand & trail accessible" }
+      ]
+    },
+    "categories": [
+      {
+        "id": "infra",
+        "title": "Transport & Infrastructure",
+        "items": [
+          { "q": "Is there parking, and what does it cost?", "a": "Several public lots surround the beach, such as Yeongildae seaside public parking and Hwanho Park parking, within walking distance. Public paid rates vary by season; they fill fast on peak weekends — arrive early or prefer transit." },
+          { "q": "Are wheelchairs or strollers allowed?", "a": "The beach's north section and Hwanho Park are gently sloped with boardwalks and accessible ramps; wheelchairs and strollers can reach the sea-view area fairly easily. Soft white sand still resists wheels, so use boardwalks and hard surfaces." },
+          { "q": "Are there restrooms or food on site?", "a": "Public restrooms and simple showers are at the beach entrance and park; dining and convenience stores cluster in the surrounding blocks — stock up on water and food at the entrance or in the city before entering the sand." },
+          { "q": "Is there a gas station or EV charging nearby?", "a": "EV chargers are at the beach-side public lots and Hwanho Park parking; conventional gas stations line Pohang's city center and main roads, handy for drivers to refuel on the way in." }
+        ]
+      },
+      {
+        "id": "geo",
+        "title": "History & Facts",
+        "items": [
+          { "q": "What does 'Yeongildae' have to do with the sea?", "a": "'Yeongildae (영일대)' combines 'Yeongil (영일, Yeongil Bay)' and 'dae (대, observation terrace / high ground)', originally a waterfront in Duho-dong, Buk-gu near Yeongil Bay. Facing due east, it has been where the first morning light is welcomed since ancient times; the name hides the bay's name and a city character that faces the sea and welcomes light." },
+          { "q": "What is its special natural and urban value?", "a": "Yeongildae is not a themed park, but a public bay beach that citizens turned into a place holding together the sunrise ritual, summer-night fireworks, the distant steel city and everyday sea breeze. White sand, Space Walk and Yeongil Bay seascape form a low-impact, high-empathy design and one of Pohang's 'sea and city' city cards." }
+        ]
+      },
+      {
+        "id": "plan",
+        "title": "Planning & Tickets",
+        "items": [
+          { "q": "Is there an admission fee?", "a": "Yeongildae is an open public beach, free long-term, the public area is accessible 24 hours, no gate, no ticket or reservation — visit anytime (respect residents' rest, avoid late-night noise)." },
+          { "q": "How long does a visit take?", "a": "A relaxed visit is about 1–2 hours (including wading and photo stops); if you add Space Walk, Hwanho Park and Jukdo Market, reserve a half day." },
+          { "q": "Can I still go in bad weather?", "a": "Yes — it is an open beach, accessible in any weather. But no swimming during typhoons, high surf or thunderstorms; sand is slippery and visibility low, wear non-slip shoes and watch weather and flags; avoid seawalls and coastal steps in bad weather." }
+        ]
+      },
+      {
+        "id": "nearby",
+        "title": "Nearby Links",
+        "items": [
+          { "q": "What else is worth visiting nearby?", "a": "From Yeongildae you can link Hwanho Park and Space Walk (look down at the sea), Jukdo Market (mulhoe and local food), the POSCO Museum (a microcosm of the steel city), Guryongpo Japanese-style street houses and Bonggilsa Temple, forming a Pohang 'beach – trail – food – industrial history' half-day route." }
+        ]
+      }
+    ]
+  },
+  "recommendations": {
+    "title": "Explore More of Pohang",
+    "attractionsTitle": "Nearby Attractions",
+    "toursTitle": "Recommended Experiences",
+    "attractions": [
+      { "name": "Space Walk (Hwanho Park red aerial trail)", "url": "https://www.pohang.go.kr/phtour/index.do" },
+      { "name": "Jukdo Market (죽도시장)", "url": "https://www.pohang.go.kr/phtour/index.do" },
+      { "name": "POSCO Museum (포스코박물관)", "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=91112" },
+      { "name": "Guryongpo Japanese-style Street (구룡포 일본인가옥거리)", "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=91112" },
+      { "name": "Bonggilsa Temple (봉길사) & coastal trail", "url": "https://inseri.gb.go.kr/Main/page.do?mnu_uid=6082&dept_code=&dept_name=&BD_CODE=gb_eng_new&bdName=&cmd=2&Start=72&B_NUM=19111733&B_STEP=261367300&B_LEVEL=0&key=4&word=&p1=0&p2=0&V_NUM=205&tbbscode1=gb_eng_new&MEDIUM_CODE=50" }
+    ],
+    "tours": [
+      { "name": "Pohang City tourism portal (Pohang Tour)", "url": "https://www.pohang.go.kr/phtour/index.do" },
+      { "name": "Korea Tourism Organization (VisitKorea)", "url": "https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?vcontsId=91112" },
+      { "name": "Gyeongsangbuk-do tourism (Gyeongbuk Tour)", "url": "https://inseri.gb.go.kr/Main/page.do?mnu_uid=6082&dept_code=&dept_name=&BD_CODE=gb_eng_new&bdName=&cmd=2&Start=72&B_NUM=19111733&B_STEP=261367300&B_LEVEL=0&key=4&word=&p1=0&p2=0&V_NUM=205&tbbscode1=gb_eng_new&MEDIUM_CODE=50" }
+    ]
+  },
+  "scienceArt": {
+    "title": "Beach Nature & Urban Light: Sand, Tide & Fire",
+    "subtitle": "Dig one layer below the surface 'good looks' to find what is truly rare here: a bay beach, a set of urban design, and an open-air coastal classroom at once.",
+    "scienceMuseum": {
+      "name": "Tides & white sand of Yeongil Bay",
+      "role": "A public beach built on a bay",
+      "highlight": "The hardest part of Yeongildae is both visible and invisible. Visible is the white sand and sea horizon; invisible are the tides, sand quality and tidal flat that sustain the bay ecosystem. Visitors see scenery; planners see a coastal system still running.",
+      "points": [
+        "Core: tides, white sand and tidal flats light up this bay.",
+        "Key: public sand transformed into low-impact, high-empathy space.",
+        "Meaning: it upgrades 'coastal neglect' into a public urban-coast model."
+      ],
+      "ctaLabel": "See Ministry of Oceans and Fisheries ↗",
+      "ctaUrl": "https://pohang.mof.go.kr/en/page.do?menuIdx=2896"
+    },
+    "artMuseum": {
+      "name": "Sea fireworks of the steel city",
+      "role": "Cultural symbol of Pohang's urban coast",
+      "highlight": "The sea sunrise, summer-night fireworks and the red Space Walk, together with the long white sand, form Yeongildae's identity system: instantly readable as belonging to the bay, the city, and a gentle, restrained urban aesthetics. From public sand to national fireworks memory, this contrast makes it one of Pohang's most memorable cultural images.",
+      "points": [
+        "Imagery: sunrise, fireworks, red ribbon trail form strong recognition.",
+        "Status: Pohang's most photogenic urban coast.",
+        "Narrative: it translates urban coast into a publicly felt aesthetic experience."
+      ],
+      "ctaLabel": "See Pohang tourism ↗",
+      "ctaUrl": "https://www.pohang.go.kr/phtour/index.do"
+    }
+  },
+  "outdoorMuseum": {
+    "title": "Photo & Spotting Guide: Yeongildae's Photo Spots",
+    "subtitle": "As Pohang's most recognizable urban coast, a few structured spots and times greatly improve your photos' usefulness and beauty.",
+    "items": [
+      {
+        "id": "sunrise",
+        "icon": "🌅",
+        "name": "Sunrise beach · sun-greeting ritual",
+        "location": "Due-east open beach section",
+        "background": "At dawn the due-east sea is dyed gold-red by the sunrise — Yeongildae's classic 'sun-greeting' composition.",
+        "points": [
+          "Use white sand as a lead-in to the red sun rising on the horizon.",
+          "Crouch low to layer sand and sea for a steadier frame."
+        ],
+        "badge": { "value": "Dawn", "label": "Best shot" }
+      },
+      {
+        "id": "spacewalk",
+        "icon": "🌀",
+        "name": "Space Walk red spiral",
+        "location": "Hwanho Park trail",
+        "background": "Shoot the red spiral aerial trail from below or top-down to frame 'red ribbon + bay' together — Yeongildae's most recognizable spot.",
+        "points": [
+          "Side-light at dawn makes the red structure softest.",
+          "Mind your feet and rails; don't enter closed zones for a frame."
+        ],
+        "badge": { "value": "All day", "label": "Most accessible" }
+      },
+      {
+        "id": "sea",
+        "icon": "🌊",
+        "name": "Dusk & blue hour",
+        "location": "North beach viewpoint",
+        "background": "Blue hour (20–30 min after sunset) balances sky and sea best — the strongest mood window.",
+        "points": [
+          "Shoot at blue hour for the most balanced sky and sea.",
+          "Silhouette the white sand leaving a large warm sea."
+        ],
+        "badge": { "value": "Dusk", "label": "Strongest mood" }
+      },
+      {
+        "id": "night",
+        "icon": "🌃",
+        "name": "Urban coastline night lights",
+        "location": "South beach / Hwanho Park",
+        "background": "At night the urban coastline lights up and the sea mirrors the river of lights — good for a closing long-exposure night shot.",
+        "points": [
+          "Use the coastline as a lead-in to the city lights.",
+          "Small aperture + tripod for longer exposure."
+        ],
+        "badge": { "value": "Night", "label": "Best layers" }
+      }
+    ]
+  },
+  "education": {
+    "title": "Why is this the east coast's representative beach?",
+    "subtitle": "What's most worth learning about Yeongildae is not 'it got pretty', but how a public bay beach was brought back into the city's public life while keeping its past.",
+    "points": [
+      {
+        "title": "A coast still used by citizens",
+        "text": "Yeongildae is not a 'hide the bay and done' case, but a sample that continuously activates the coast through public-space design and turns it into a shared place.",
+        "items": [
+          "Citizens entrust daily strolls and the sun-greeting ritual to this sand.",
+          "Public sand and city life coexist long-term."
+        ]
+      },
+      {
+        "title": "Writing coastal ethics into visitor behavior",
+        "text": "The sand boardwalk, safety-flag system and signs are not just guides, but let every visitor, while using the space, take part in respect for the ocean and others.",
+        "items": [
+          "Visitors are guided to stay on low-impact paths.",
+          "Water play and ecology are not sacrificed to each other."
+        ]
+      },
+      {
+        "title": "Turning bay memory into public aesthetics",
+        "text": "Yeongildae did not erase the fishing-port and steel-city past, but through the beach, fireworks and signs lets the public, while wading, realize what this land has gone through.",
+        "items": [
+          "Story depth and water play complete at the same place.",
+          "This is exactly the value a non-profit science site should amplify."
+        ]
+      }
+    ]
+  },
+  "audience": {
+    "title": "Who Should Come? From Segment Guide to Custom Itinerary",
+    "subtitle": "Not just 'you'll like it', but directly telling you how to go, where to start, and which Pohang nodes to link.",
+    "items": [
+      {
+        "icon": "👨‍👩‍👧",
+        "group": "Families",
+        "resonance": "Free, open, safe white-sand beach; kids can wade and watch the sea, and easily climb Space Walk from the gentle side.",
+        "tip": "Save energy for the top viewpoint rather than spending it on steep slopes."
+      },
+      {
+        "icon": "📷",
+        "group": "Photographers & couples",
+        "resonance": "Dawn sunrise and summer-night fireworks are Pohang's most romantic frames, very photogenic.",
+        "tip": "Count arrival, return and light into your plan so the frame doesn't lose to on-site pace."
+      },
+      {
+        "icon": "🌿",
+        "group": "Nature & local lovers",
+        "resonance": "As an ecological sample of urban coast, tides and tidal flats are worth a close look.",
+        "tip": "Avoid the most crowded weekends; choose dawn or weekday afternoons to truly observe coastal details."
+      },
+      {
+        "icon": "🗺️",
+        "group": "First-time visitors to Korea",
+        "resonance": "Without going far to the countryside, you can observe the bay, steel city and public beach in Pohang city, and link trains, buses and local food — an ideal starting point to understand Pohang's urban transformation.",
+        "tip": "If you can only pick one Pohang coast landmark, Yeongildae is the best first stop for the 'sea and city' theme."
+      }
+    ]
+  },
+  "lodging": {
+    "title": "Lodging Guide: Stay close, or stay convenient",
+    "subtitle": "Pohang is a port city where 'sea and city connect'. We don't recommend specific hotels, but help you analyze two lodging patterns to choose what suits you.",
+    "scenarioTitle": "Two choices, how to choose",
+    "options": [
+      {
+        "icon": "🏖️",
+        "name": "Yeongildae / Hwanho Park area",
+        "role": "Best for coast & trail",
+        "highlight": "Staying at Yeongildae or Hwanho Park, you walk to the white-sand beach, Space Walk and coastal night views; the night sea breeze and lights suit travelers. Best for those focused on 'beach stroll + urban coast' with high convenience needs.",
+        "commute": "Commute: about 5–15 min walk to the beach, about 10–15 min to Space Walk. Low demand on legs, good for late-night coast walks.",
+        "points": [
+          "About 10–15 min walk to Yeongildae, least effort.",
+          "Very rich coastal night views and dining.",
+          "More choices, usually better value."
+        ]
+      },
+      {
+        "icon": "🏙️",
+        "name": "Pohang city / Jukdo Market area",
+        "role": "Best for food & transit",
+        "highlight": "Staying in Pohang city or Jukdo Market, next to the train station, express bus terminal and food streets, best for those focused on 'eat & stroll + transfer', then take bus / taxi to Yeongildae by day.",
+        "commute": "Commute: about 15 min by city bus or taxi to Yeongildae. Good for drivers or independent travelers wanting absolute convenience.",
+        "points": [
+          "Train and bus stations at hand, good for transfers.",
+          "Mulhoe and local food and night markets are very rich.",
+          "About 15–30 min walk or a short ride to Yeongildae."
+        ]
+      }
+    ],
+    "peakTitle": "Peak-season warning",
+    "peak": "In Pohang's summer (especially during the fireworks festival) and holidays, rooms tighten and prices rise noticeably. Book several weeks ahead; if booking near a holiday, widen the range to Gyeongju, Daegu and other surrounding areas, then take the train.",
+    "tipsTitle": "Lodging tips",
+    "tips": [
+      "Want sunrise: prefer Yeongildae / Hwanho Park, walk to the beach at dawn.",
+      "Value food & convenience: choose Pohang city / Jukdo Market, walking and dining at hand.",
+      "Before booking, confirm breakfast, parking and EV chargers (drivers especially).",
+      "Book ahead in peak season and holidays to avoid no rooms or high prices."
+    ]
+  }
+}
