@@ -72,7 +72,7 @@
         { "label": "英文名称", "value": "Yeongildae Beach" },
         { "label": "行政区", "value": "韩国 庆尚北道 浦项市 北区 두호동" },
         { "label": "地址", "value": "1015 Duho-dong, Buk-gu, Pohang-si, Gyeongsangbuk-do" },
-        { "label": "坐标", "value": "36.0666, 129.3840" },
+        { "label": "坐标", "value": "36.0573, 129.3778" },
         { "label": "Plus Code", "value": "394H+F7 Pohang" },
         { "label": "管理主体", "value": "浦项市与庆尚北道公共管理体系" },
         { "label": "电话", "value": "+82 54-270-2114" },
@@ -112,7 +112,7 @@
       { "icon": "🌅", "label": "日出名胜 / Sunrise", "value": "新年 해돋이", "note": "面向正东的开阔海面，使这里长期被视为浦项代表性的迎日观察点之一。", "source": "来源：浦项市文旅资料" },
       { "icon": "🎆", "label": "国际烟火节 / Fireworks", "value": "自 2008 年", "note": "浦项国际烟火节自 2008 年起在迎日台海面举办，强化了这片海滩的城市公共记忆。", "source": "来源：浦项国际烟火节公开资料" },
       { "icon": "🆓", "label": "进入门槛 / Admission", "value": "0 韩元", "note": "海滩公共区域通常免费进入，但涉水服务与安全值守受季节管理影响。", "source": "来源：浦项市公开资料" },
-      { "icon": "📍", "label": "地理坐标 / Location", "value": "36°04′N, 129°23′E", "note": "Plus Code：394H+F7 Pohang。紧邻 영일만（迎日湾），与 환호공원、Space Walk 步行可达。", "source": "来源：Google Maps / Plus Code" },
+      { "icon": "📍", "label": "地理坐标 / Location", "value": "36°03′N, 129°23′E", "note": "Plus Code：394H+F7 Pohang。紧邻 영일만（迎日湾），与 환호공원、Space Walk 步行可达。", "source": "来源：Google Maps / Plus Code" },
       { "icon": "🚶", "label": "平缓沙滩 / Terrain", "value": "缓坡白沙", "note": "北段步道与观海区较友好，松软白沙适合步行观察，但对轮椅推进仍有阻力。", "source": "来源：现场导览与无障碍说明" }
     ]
   },
